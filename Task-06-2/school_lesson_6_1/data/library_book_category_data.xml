@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_book_category_novel" model="library.book.category" forcecreate="True">
+        <field name="name">Novel</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="library_book_category_fantastic" model="library.book.category" forcecreate="True">
+        <field name="name">Fantasy, Science fiction</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="library_book_category_criminal" model="library.book.category" forcecreate="True">
+        <field name="name">Criminal</field>
+        <field name="active" eval="True"/>
+    </record>
+
+</odoo>
